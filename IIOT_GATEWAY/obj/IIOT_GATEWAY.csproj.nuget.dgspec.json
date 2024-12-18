@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PBL\\IIOT_GATEWAY\\IIOT_GATEWAY\\IIOT_GATEWAY.csproj": {}
+    "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\IIOT_GATEWAY.csproj": {}
   },
   "projects": {
-    "C:\\PBL\\IIOT_GATEWAY\\IIOT_GATEWAY\\IIOT_GATEWAY.csproj": {
+    "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\IIOT_GATEWAY.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PBL\\IIOT_GATEWAY\\IIOT_GATEWAY\\IIOT_GATEWAY.csproj",
+        "projectUniqueName": "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\IIOT_GATEWAY.csproj",
         "projectName": "IIOT_GATEWAY",
-        "projectPath": "C:\\PBL\\IIOT_GATEWAY\\IIOT_GATEWAY\\IIOT_GATEWAY.csproj",
+        "projectPath": "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\IIOT_GATEWAY.csproj",
         "packagesPath": "C:\\Users\\mikha\\.nuget\\packages\\",
-        "outputPath": "C:\\PBL\\IIOT_GATEWAY\\IIOT_GATEWAY\\obj\\",
+        "outputPath": "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,16 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.3.7.1207, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

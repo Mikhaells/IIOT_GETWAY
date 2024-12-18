@@ -6,6 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
+      "IIOT_GATEWAY/1.0.0": {
+        "dependencies": {
+          "MQTTnet": "4.3.7.1207",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "IIOT_GATEWAY.dll": {}
+        }
+      },
       "MQTTnet/4.3.7.1207": {
         "runtime": {
           "lib/net7.0/MQTTnet.dll": {
@@ -25,6 +34,11 @@
     }
   },
   "libraries": {
+    "IIOT_GATEWAY/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "MQTTnet/4.3.7.1207": {
       "type": "package",
       "serviceable": true,

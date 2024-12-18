@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IIOT_GATEWAY")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f3001bd9216007159daa7938f122becc9c34a66")]
 [assembly: System.Reflection.AssemblyProductAttribute("IIOT_GATEWAY")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IIOT_GATEWAY")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
