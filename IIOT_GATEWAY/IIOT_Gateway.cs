@@ -13,6 +13,7 @@ using Newtonsoft.Json.Linq;
 using MQTTnet;
 using MQTTnet.Client;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using IIOT_GATEWAY;
 
 namespace IIOT_GATEWAY
 {
@@ -21,7 +22,7 @@ namespace IIOT_GATEWAY
         private static readonly HttpClient client = new HttpClient();
         
         private IMqttClient mqttClient;
-
+        public Controller cnt = new Controller();    
         public IIOT_Gateway()
         {
             client.DefaultRequestHeaders.Accept.Add(
@@ -39,11 +40,11 @@ namespace IIOT_GATEWAY
             if (e.Node.Text == "WLAN")
             {
                 
-                PublishTopicAsync(CreateJsonString("GetIpAddress","wlan0"));
+                PublishTopicAsync(cnt.CreateJsonString("GetIpAddress","wlan0"));
             }
             if (e.Node.Text == "Ethernet")
             {
-                PublishTopicAsync(CreateJsonString("GetIpAddress", "eth0"));
+                PublishTopicAsync(cnt.CreateJsonString("GetIpAddress", "eth0"));
             }
             if (e.Node.Text == "Get Data")
             {
@@ -55,7 +56,7 @@ namespace IIOT_GATEWAY
             if (e.Node.Text == "Set Data")
             {
                 pnlHome.Controls.Clear();
-                SetDataForm Setdata = new SetDataForm();
+                SetDataForm Setdata = new SetDataForm(this);
                 Setdata.Dock = DockStyle.Fill;
                 pnlHome.Controls.Add(Setdata);
             }
@@ -124,7 +125,7 @@ namespace IIOT_GATEWAY
         }
 
 
-        private async Task ConnectMQTTAsync()
+        public async Task ConnectMQTTAsync()
         {
             var factory = new MqttFactory();
             mqttClient = factory.CreateMqttClient();
@@ -239,28 +240,7 @@ namespace IIOT_GATEWAY
             }
         }
 
-        public string CreateJsonString(string cnf,string con)
-        {  
-            string jsonString = $@"
-                                    {{
-                                      ""m2m:rqp"": {{
-                                        ""fr"": ""2c8489c626d81199:3aa45962c7db0414"",
-                                        ""to"": ""/antares-cse/antares-id/IIOT_GATEWAY/Raspberry_PI"",
-                                        ""op"": 1,
-                                        ""rqi"": 123456,
-                                        ""pc"": {{
-                                          ""m2m:cin"": {{
-                                            ""cnf"": ""{cnf}"",
-                                            ""con"": ""{con}""
-                                          }}
-                                        }},
-                                        ""ty"": 4
-                                      }}
-                                    }}";
-            return jsonString;
-
-
-        }
+       
 
     }
 }

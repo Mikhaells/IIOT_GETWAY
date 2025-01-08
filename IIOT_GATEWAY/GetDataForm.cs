@@ -14,6 +14,7 @@ namespace IIOT_GATEWAY
     {
 
         IIOT_Gateway _mainForm;
+        Controller _controller;
         public GetDataForm(IIOT_Gateway mainForm)
         {
             InitializeComponent();
@@ -29,7 +30,7 @@ namespace IIOT_GATEWAY
                 return;
             }
 
-            string jSON = _mainForm.CreateJsonString("GetDataPLC", tbIpAddress.Text);
+            string jSON = _controller.CreateJsonString("GetDataPLC", tbIpAddress.Text);
             _mainForm.PublishTopicAsync(jSON); 
         }
     }

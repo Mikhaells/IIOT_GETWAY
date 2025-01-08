@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|d:\\new journey\\pbl\\iiot_getway\\iiot_gateway\\getdataform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|solutionrelative:getdataform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|d:\\new journey\\pbl\\iiot_getway\\iiot_gateway\\setdataform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|solutionrelative:setdataform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|d:\\new journey\\pbl\\iiot_getway\\iiot_gateway\\iiot_gateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|solutionrelative:iiot_gateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|d:\\new journey\\pbl\\iiot_getway\\iiot_gateway\\getdataform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|solutionrelative:getdataform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|d:\\new journey\\pbl\\iiot_getway\\iiot_gateway\\iiot_gateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|solutionrelative:iiot_gateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|d:\\new journey\\pbl\\iiot_getway\\iiot_gateway\\getdataform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|solutionrelative:getdataform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\setdataform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|solutionrelative:setdataform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|d:\\new journey\\pbl\\iiot_getway\\iiot_gateway\\ipinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|solutionrelative:ipinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|d:\\new journey\\pbl\\iiot_getway\\iiot_gateway\\getdataform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F3095838-C82B-4F44-BD07-394E322CCFF6}|IIOT_GATEWAY.csproj|solutionrelative:getdataform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,20 +34,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "SetDataForm.cs [Design]",
+              "DocumentMoniker": "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\SetDataForm.cs",
+              "RelativeDocumentMoniker": "SetDataForm.cs",
+              "ToolTip": "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\SetDataForm.cs [Design]",
+              "RelativeToolTip": "SetDataForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T04:16:47.549Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GetDataForm.cs",
               "DocumentMoniker": "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\GetDataForm.cs",
               "RelativeDocumentMoniker": "GetDataForm.cs",
               "ToolTip": "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\GetDataForm.cs",
               "RelativeToolTip": "GetDataForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:37:30.899Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-01-08T01:25:11.712Z",
               "EditorCaption": ""
             },
             {
@@ -54,45 +70,46 @@
               "RelativeDocumentMoniker": "IIOT_Gateway.cs",
               "ToolTip": "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\IIOT_Gateway.cs",
               "RelativeToolTip": "IIOT_Gateway.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAAA8wCkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAewDoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:42:28.375Z",
+              "WhenOpened": "2025-01-08T01:21:47.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "SetDataForm.cs",
+              "DocumentMoniker": "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\SetDataForm.cs",
+              "RelativeDocumentMoniker": "SetDataForm.cs",
+              "ToolTip": "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\SetDataForm.cs",
+              "RelativeToolTip": "SetDataForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T01:12:25.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "IIOT_Gateway.cs [Design]",
               "DocumentMoniker": "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\IIOT_Gateway.cs",
               "RelativeDocumentMoniker": "IIOT_Gateway.cs",
               "ToolTip": "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\IIOT_Gateway.cs [Design]",
               "RelativeToolTip": "IIOT_Gateway.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:40:31.476Z",
+              "WhenOpened": "2025-01-08T01:06:58.057Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IPInfoForm.cs [Design]",
-              "DocumentMoniker": "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\IPInfoForm.cs",
-              "RelativeDocumentMoniker": "IPInfoForm.cs",
-              "ToolTip": "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\IPInfoForm.cs [Design]",
-              "RelativeToolTip": "IPInfoForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:40:30.867Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GetDataForm.cs [Design]",
               "DocumentMoniker": "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\GetDataForm.cs",
               "RelativeDocumentMoniker": "GetDataForm.cs",
               "ToolTip": "D:\\NEW JOURNEY\\PBL\\IIOT_GETWAY\\IIOT_GATEWAY\\GetDataForm.cs [Design]",
               "RelativeToolTip": "GetDataForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:38:02.223Z",
+              "WhenOpened": "2025-01-08T01:04:18.228Z",
               "EditorCaption": " [Design]"
             }
           ]
